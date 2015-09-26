@@ -135,16 +135,21 @@ body {
   padding: 0 20px;
 }
 
-/* line 117, ../sass/base.scss */
+/* line 118, ../sass/base.scss */
 .cover .btn-lg {
   padding: 10px 20px;
   font-weight: bold;
 }
 
+/* line 123, ../sass/base.scss */
+.cover-heading {
+  font-size: 46px;
+}
+
 /*
  * Footer
  */
-/* line 127, ../sass/base.scss */
+/* line 132, ../sass/base.scss */
 .mastfoot {
   color: #999;
   /* IE8 proofing */
@@ -156,26 +161,26 @@ body {
  */
 @media (min-width: 768px) {
   /* Pull out the header and footer */
-  /* line 139, ../sass/base.scss */
+  /* line 144, ../sass/base.scss */
   .masthead {
     position: fixed;
     top: 0;
   }
 
-  /* line 143, ../sass/base.scss */
+  /* line 148, ../sass/base.scss */
   .mastfoot {
     position: fixed;
     bottom: 0;
   }
 
   /* Start the vertical centering */
-  /* line 148, ../sass/base.scss */
+  /* line 153, ../sass/base.scss */
   .site-wrapper-inner {
     vertical-align: middle;
   }
 
   /* Handle the widths */
-  /* line 152, ../sass/base.scss */
+  /* line 157, ../sass/base.scss */
   .masthead,
   .mastfoot,
   .cover-container {
@@ -184,7 +189,7 @@ body {
   }
 }
 @media (min-width: 992px) {
-  /* line 160, ../sass/base.scss */
+  /* line 165, ../sass/base.scss */
   .masthead,
   .mastfoot,
   .cover-container {

@@ -9,7 +9,7 @@ title: MPLSTV
       <h3 class="masthead-brand">MPLSTV</h3>
       <nav>
         <ul class="nav masthead-nav">
-          <li class="active"><a href="#">Music</a></li>
+          <li><a href="https://maplestave.bandcamp.com/" target="_blank">Music</a></li>
           <li><a href="#">Shows</a></li>
         </ul>
       </nav>
@@ -18,12 +18,13 @@ title: MPLSTV
   <div class="inner cover">
     <h1 class="cover-heading">Maplestave</h1>
     <p class="lead">A band from Durham, NC</p>
-    <p class="lead">
-      <a href="#" class="btn btn-lg btn-default">Learn more</a>
-    </p>
   </div>
+
+  {% for p in site.posts %}
+    <a name="{{ p.section }}"></a>
+    <div class="page {{ p.pagetype }}" style="background-color:#{{ p.bgslide }};padding-top:{{ p.extrapadding }}" data-section="nav{{ p.section }}">
+      {{ p.content | markdownify }}
+      <div class="clear"></div>  
+    </div>
+  {% endfor %} 
 </div>
-
-{% for p in site.posts %}
-
-{% endfor %} 
