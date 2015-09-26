@@ -202,5 +202,6 @@ PLATFORMS
 DEPENDENCIES
   bootstrap-sass (~> 3.3.5)
   compass
-  github-pages
+  github-pages (= 39)
+  json
   sass-rails
