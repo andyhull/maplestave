@@ -20,8 +20,13 @@ title: MPLSTV
     <h1 class="cover-heading">Maple Stave</h1>
     <p class="lead">A band from Durham, NC</p>
   </div>
+  {% assign post = site.posts.first %}
 
-  {% for p in site.posts %}
+  <div class="main-post">
+    <h1>{{ post.content }}</h1>
+  </div>
+
+  {% for p in site.posts offset:1 %}
     <a name="{{ p.section }}"></a>
     <div class="page {{ p.pagetype }}" style="background-color:#{{ p.bgslide }};padding-top:{{ p.extrapadding }}" data-section="nav{{ p.section }}">
       {{ p.content | markdownify }}

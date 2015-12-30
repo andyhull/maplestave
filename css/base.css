@@ -1,8 +1,15 @@
+/* line 2, ../sass/_post.scss */
+.main-post {
+  margin: 10em 0em;
+  border-top: 5px solid #ccc;
+  border-bottom: 5px solid #ccc;
+}
+
 /*
  * Globals
  */
 /* Links */
-/* line 7, ../sass/base.scss */
+/* line 9, ../sass/base.scss */
 a,
 a:focus,
 a:hover {
@@ -10,7 +17,7 @@ a:hover {
 }
 
 /* Custom default button */
-/* line 14, ../sass/base.scss */
+/* line 16, ../sass/base.scss */
 .btn-default,
 .btn-default:hover,
 .btn-default:focus {
@@ -24,14 +31,14 @@ a:hover {
 /*
  * Base structure
  */
-/* line 28, ../sass/base.scss */
+/* line 30, ../sass/base.scss */
 html,
 body {
   height: 100%;
   background-color: #333;
 }
 
-/* line 33, ../sass/base.scss */
+/* line 35, ../sass/base.scss */
 body {
   color: #fff;
   text-align: center;
@@ -39,7 +46,7 @@ body {
 }
 
 /* Extra markup and styles for table-esque vertical and horizontal centering */
-/* line 40, ../sass/base.scss */
+/* line 42, ../sass/base.scss */
 .site-wrapper {
   display: table;
   width: 100%;
@@ -50,21 +57,21 @@ body {
   box-shadow: inset 0 0 100px rgba(0, 0, 0, 0.5);
 }
 
-/* line 48, ../sass/base.scss */
+/* line 50, ../sass/base.scss */
 .site-wrapper-inner {
   display: table-cell;
   vertical-align: top;
   background: url("../images/mplwallpaper2.jpg");
 }
 
-/* line 53, ../sass/base.scss */
+/* line 55, ../sass/base.scss */
 .cover-container {
   margin-right: auto;
   margin-left: auto;
 }
 
 /* Padding for spacing */
-/* line 59, ../sass/base.scss */
+/* line 61, ../sass/base.scss */
 .inner {
   padding: 30px;
 }
@@ -72,23 +79,23 @@ body {
 /*
  * Header
  */
-/* line 67, ../sass/base.scss */
+/* line 69, ../sass/base.scss */
 .masthead-brand {
   margin-top: 10px;
   margin-bottom: 10px;
 }
 
-/* line 72, ../sass/base.scss */
+/* line 74, ../sass/base.scss */
 .masthead-nav > li {
   display: inline-block;
 }
 
-/* line 75, ../sass/base.scss */
+/* line 77, ../sass/base.scss */
 .masthead-nav > li + li {
   margin-left: 20px;
 }
 
-/* line 78, ../sass/base.scss */
+/* line 80, ../sass/base.scss */
 .masthead-nav > li > a {
   padding-right: 0;
   padding-left: 0;
@@ -100,7 +107,7 @@ body {
   border-bottom: 2px solid transparent;
 }
 
-/* line 87, ../sass/base.scss */
+/* line 89, ../sass/base.scss */
 .masthead-nav > li > a:hover,
 .masthead-nav > li > a:focus {
   background-color: transparent;
@@ -108,7 +115,7 @@ body {
   border-bottom-color: rgba(255, 255, 255, 0.25);
 }
 
-/* line 93, ../sass/base.scss */
+/* line 95, ../sass/base.scss */
 .masthead-nav > .active > a,
 .masthead-nav > .active > a:hover,
 .masthead-nav > .active > a:focus {
@@ -117,12 +124,12 @@ body {
 }
 
 @media (min-width: 768px) {
-  /* line 101, ../sass/base.scss */
+  /* line 103, ../sass/base.scss */
   .masthead-brand {
     float: left;
   }
 
-  /* line 104, ../sass/base.scss */
+  /* line 106, ../sass/base.scss */
   .masthead-nav {
     float: right;
   }
@@ -130,18 +137,18 @@ body {
 /*
  * Cover
  */
-/* line 114, ../sass/base.scss */
+/* line 116, ../sass/base.scss */
 .cover {
   padding: 0 20px;
 }
 
-/* line 118, ../sass/base.scss */
+/* line 120, ../sass/base.scss */
 .cover .btn-lg {
   padding: 10px 20px;
   font-weight: bold;
 }
 
-/* line 123, ../sass/base.scss */
+/* line 125, ../sass/base.scss */
 .cover-heading {
   font-size: 46px;
 }
@@ -149,7 +156,7 @@ body {
 /*
  * Footer
  */
-/* line 132, ../sass/base.scss */
+/* line 134, ../sass/base.scss */
 .mastfoot {
   color: #999;
   /* IE8 proofing */
@@ -161,26 +168,26 @@ body {
  */
 @media (min-width: 768px) {
   /* Pull out the header and footer */
-  /* line 144, ../sass/base.scss */
+  /* line 146, ../sass/base.scss */
   .masthead {
     position: fixed;
     top: 0;
   }
 
-  /* line 148, ../sass/base.scss */
+  /* line 150, ../sass/base.scss */
   .mastfoot {
     position: fixed;
     bottom: 0;
   }
 
   /* Start the vertical centering */
-  /* line 153, ../sass/base.scss */
+  /* line 155, ../sass/base.scss */
   .site-wrapper-inner {
     vertical-align: middle;
   }
 
   /* Handle the widths */
-  /* line 157, ../sass/base.scss */
+  /* line 159, ../sass/base.scss */
   .masthead,
   .mastfoot,
   .cover-container {
@@ -189,7 +196,7 @@ body {
   }
 }
 @media (min-width: 992px) {
-  /* line 165, ../sass/base.scss */
+  /* line 167, ../sass/base.scss */
   .masthead,
   .mastfoot,
   .cover-container {
