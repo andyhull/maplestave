@@ -1,6 +1,6 @@
 /* line 2, ../sass/_post.scss */
 .main-post {
-  margin: 10em 0em;
+  margin: 5em 0em;
   border-top: 5px solid #ccc;
   border-bottom: 5px solid #ccc;
 }
@@ -170,7 +170,6 @@ body {
   /* Pull out the header and footer */
   /* line 146, ../sass/base.scss */
   .masthead {
-    position: fixed;
     top: 0;
   }
 
