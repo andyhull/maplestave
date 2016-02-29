@@ -144,7 +144,6 @@ body {
 @media (min-width: 768px) {
   /* Pull out the header and footer */
   .masthead {
-    position: fixed;
     top: 0;
   }
   .mastfoot {
@@ -168,5 +167,11 @@ body {
   .mastfoot,
   .cover-container {
     width: 700px;
+  }
+}
+
+iframe  {
+  .campaigns {
+    margin-left: 40px !important;
   }
 }

@@ -1,6 +1,6 @@
 /* line 2, ../sass/_post.scss */
 .main-post {
-  margin: 5em 0em;
+  margin: 10em 0em;
   border-top: 5px solid #ccc;
   border-bottom: 5px solid #ccc;
 }
@@ -173,20 +173,20 @@ body {
     top: 0;
   }
 
-  /* line 150, ../sass/base.scss */
+  /* line 149, ../sass/base.scss */
   .mastfoot {
     position: fixed;
     bottom: 0;
   }
 
   /* Start the vertical centering */
-  /* line 155, ../sass/base.scss */
+  /* line 154, ../sass/base.scss */
   .site-wrapper-inner {
     vertical-align: middle;
   }
 
   /* Handle the widths */
-  /* line 159, ../sass/base.scss */
+  /* line 158, ../sass/base.scss */
   .masthead,
   .mastfoot,
   .cover-container {
@@ -195,10 +195,14 @@ body {
   }
 }
 @media (min-width: 992px) {
-  /* line 167, ../sass/base.scss */
+  /* line 166, ../sass/base.scss */
   .masthead,
   .mastfoot,
   .cover-container {
     width: 700px;
   }
+}
+/* line 174, ../sass/base.scss */
+iframe .campaigns {
+  margin-left: 40px !important;
 }
